@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Persona5Project</title>
+    <link rel="shortcut icon" href="/assets/images/tabIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styleGeneral.css" />
+    <link rel="stylesheet" href="stylePersonagens.css" />
+    <script
+      src="https://kit.fontawesome.com/640954b409.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/script/personagensScript.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="caixa">
+        <img
+          src="/assets/images/Persona_5_logo.svg.png"
+          alt="Persona_5_logo"
+          class="logo"
+        />
+        <nav>
+          <ul class="cabecalho">
+            <li><a href="/index.html">Home</a></li>
+            <div class="dropdownPersonagens">
+              <li>
+                <button class="dropPersonagensBtn">
+                  <a href="#">Personagens</a>
+                </button>
+              </li>
+              <div class="dropPersonagensContent">
+                <a href="#">Personagens principais</a>
+                <a href="#">Personas principais</a>
+                <a href="#">NPC's secundarios</a>
+              </div>
+            </div>
+            <li><a href="#">Chefes</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="search">
+      <form action="">
+        <div class="searchDiv">
+          <input type="text" value="" placeholder="Buscar..." />
+          <button><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+        </div>
+      </form>
+
+      <main class="personagensMainContent">
+        <div class="title">
+          <h2>Personagens</h2>
+        </div>
+        <div id="cardsPersonagens" class="cardsPersonagens"></div>
+      </main>
+    </section>
+  </body>
+  <footer>
+    <div>
+      <img src="/assets/images/Phantom-Thieves-of-Hearts-Logo.png" alt="" />
+      <p>Copyrigth &copy</p>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,136 @@
+@font-face {
+  font-family: Persona;
+  src: url(./assets/fonts/Persona5main.ttf);
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(./assets/fonts/HubertFischer-Rubik-Regular.ttf);
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  background-color: #f20401;
+  padding: 1.5em;
+}
+
+/*NavBar*/
+.logo {
+  width: 10em;
+  display: inline;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  font-family: Persona, sans-serif;
+  margin: 0 15px;
+}
+
+.cabecalho li > a:hover {
+  color: #f9f9f9;
+  font-size: 26px;
+  transition: 0.5s;
+}
+
+.dropdownPersonagens {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdownPersonagens .dropPersonagensBtn {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  /* color: white; */
+  font-family: Persona;
+  padding: 0 2em 10px 2em;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdownPersonagens:hover .dropPersonagensBtn {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.dropdownPersonagens:hover .dropPersonagensBtn a {
+  color: #f9f9f9;
+  transition: 0.5s;
+  font-size: 26px;
+}
+
+.dropPersonagensContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  letter-spacing: 5px;
+}
+
+.dropPersonagensContent a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropPersonagensContent a:hover {
+  background-color: #ddd;
+}
+
+.dropdownPersonagens:hover .dropPersonagensContent {
+  display: block;
+}
+
+footer {
+  background-color: #f20401;
+  padding: 5px 0 0 0;
+  text-align: center;
+  font-family: 'Persona', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  margin-bottom: 5px;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  width: auto;
+  height: 4em;
+}
+

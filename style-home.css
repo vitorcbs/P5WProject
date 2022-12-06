@@ -1,0 +1,107 @@
+
+/*Home main content*/
+#main-home {
+  width: auto;
+  color: #f9f9f9;
+  background-color: #222222;
+  margin: 2em 0.5em;
+  border-radius: 3px;
+  padding: 10px 10px;
+}
+
+/*Main text*/
+
+.main-text  {
+  width: 65%;
+  display: inline-block;
+  text-align: justify;
+  margin-left: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.main-text h1 {
+  font-size: 36px;
+  font-weight: lighter;
+  margin: 15px 0 5px 14px;
+  letter-spacing: .25px;
+  font-style: italic;
+}
+
+.fraseDestaque {
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+
+.main-text p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  text-indent: 30px
+}
+
+.main-text p:nth-child(3) {
+  margin: 20px 0;
+}
+
+
+
+/*Aside*/
+.game-informations {
+  float: right;
+  border: 2px red solid;
+  width: 30%;
+  display: flex;
+  display: block;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  border-radius: 10px;
+}
+
+.game-informations h2 {
+  padding: 12px 9px;
+  background-color: #222222;
+  font-weight: 700;
+  border-radius: 10px 10px 0 0;
+}
+
+.game-informations h2:nth-child(1), .game-informations h2:nth-child(4) {
+  background-color: #f20401;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.game-informations div {
+  background-color: #808080;
+}
+
+.game-informations img {
+  width: 50%;
+  background-color: #808080;
+}
+
+.information {
+  display: flex;
+  background-color: #f20401;
+}
+
+.information h2 {
+  margin: 1px 2px;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 30%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information a {
+  width: 65%;
+  text-align: center;
+  padding: 15px 0px;
+  font-weight: bold;
+  border: 1px solid black;
+  margin: 1px 2px;
+  border-radius: 3px;
+  background-color: #222222;
+}

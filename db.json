@@ -1,0 +1,57 @@
+{
+    "data": {
+        "results" : [
+            {
+                "normalName" : "Rei Ayanami",
+                "cardImage" : "FrontCardJoker.webp",
+                "transformedName" : "Joker",
+                "cardFlipImage" : "BackCardJoker.png"
+            },
+            {
+                "normalName" : "Morgana",
+                "cardImage" : "FrontCardMorgana.webp",
+                "transformedName" : "Mona",
+                "cardFlipImage" : "BackCardMorgana.webp"
+            },
+            {
+                "normalName" : "Ryuji Sakamoto",
+                "cardImage" : "FrontCardRyuji.webp",
+                "transformedName" : "Skull",
+                "cardFlipImage" : "BackCardRyuji.webp"
+            },
+            {
+                "normalName" : "Ann Tamaki",
+                "cardImage" : "FrontCardAnn.webp",
+                "transformedName" : "Panther",
+                "cardFlipImage" : "BackCardAnn.webp"
+            },
+            {
+                "normalName" : "Yusuke Kitagawa",
+                "cardImage" : "FrontCardYusuke.webp",
+                "transformedName" : "Fox",
+                "cardFlipImage" : "BackCardYusuke.webp"
+            }
+            ,
+            {
+                "normalName" : "Yusuke Kitagawa",
+                "cardImage" : "FrontCardYusuke.webp",
+                "transformedName" : "Fox",
+                "cardFlipImage" : "BackCardYusuke.webp"
+            }
+            ,
+            {
+                "normalName" : "Yusuke Kitagawa",
+                "cardImage" : "FrontCardYusuke.webp",
+                "transformedName" : "Fox",
+                "cardFlipImage" : "BackCardYusuke.webp"
+            }
+            ,
+            {
+                "normalName" : "Yusuke Kitagawa",
+                "cardImage" : "FrontCardYusuke.webp",
+                "transformedName" : "Fox",
+                "cardFlipImage" : "BackCardYusuke.webp"
+            }
+        ]
+    }
+}
